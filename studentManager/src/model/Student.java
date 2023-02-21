@@ -2,7 +2,7 @@ package model;
 
 import java.io.Serializable;
 
-public class Student implements Serializable,Comparable<Student> {
+public class Student implements Serializable {
     private String id;
     private String fullName;
     private int age;
@@ -82,8 +82,4 @@ public class Student implements Serializable,Comparable<Student> {
                 '\n';
     }
 
-    @Override
-    public int compareTo(Student o) {
-        return 0;
-    }
 }
